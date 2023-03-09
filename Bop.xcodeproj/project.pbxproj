@@ -75,8 +75,9 @@
 		999B67F629B966250091AC35 = {
 			isa = PBXGroup;
 			children = (
-				999B680129B966250091AC35 /* Bop */,
+				999B680229B966250091AC35 /* BopApp.swift */,
 				999B681329B966260091AC35 /* BopTests */,
+				999B680129B966250091AC35 /* Bop */,
 				999B681D29B966260091AC35 /* BopUITests */,
 				999B680029B966250091AC35 /* Products */,
 			);
@@ -95,11 +96,11 @@
 		999B680129B966250091AC35 /* Bop */ = {
 			isa = PBXGroup;
 			children = (
-				999B680229B966250091AC35 /* BopApp.swift */,
-				999B680429B966250091AC35 /* ContentView.swift */,
-				999B680629B966260091AC35 /* Assets.xcassets */,
 				999B680829B966260091AC35 /* Bop.entitlements */,
-				999B680929B966260091AC35 /* Preview Content */,
+				999B682F29B96F5F0091AC35 /* Data */,
+				999B682E29B96F4B0091AC35 /* UIControllers */,
+				999B682D29B96EF10091AC35 /* Views */,
+				999B683029B96F820091AC35 /* Resources */,
 			);
 			path = Bop;
 			sourceTree = "<group>";
@@ -127,6 +128,37 @@
 				999B682029B966260091AC35 /* BopUITestsLaunchTests.swift */,
 			);
 			path = BopUITests;
+			sourceTree = "<group>";
+		};
+		999B682D29B96EF10091AC35 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				999B680429B966250091AC35 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		999B682E29B96F4B0091AC35 /* UIControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIControllers;
+			sourceTree = "<group>";
+		};
+		999B682F29B96F5F0091AC35 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		999B683029B96F820091AC35 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				999B680929B966260091AC35 /* Preview Content */,
+				999B680629B966260091AC35 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,7 +446,7 @@
 				CODE_SIGN_ENTITLEMENTS = Bop/Bop.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Bop/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Bop/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -450,7 +482,7 @@
 				CODE_SIGN_ENTITLEMENTS = Bop/Bop.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Bop/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Bop/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
